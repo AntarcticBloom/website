@@ -1,0 +1,60 @@
+.container {
+  width: 100%;
+  display: flex;
+  margin-top: 50vh;
+  position: relative;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-color: #fffffa;
+}
+
+.svgContainer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+}
+
+.textContainer {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 4.9rem;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 3rem;
+  text-align: center;
+}
+
+
+@media (max-width: 1100px) {
+  .heading {
+    font-size: 2.8rem;
+    text-align: center;
+  }
+  
+  .subtitle {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+
+  .textContainer {
+    padding-right: 32px;
+  }
+}
+
+@media (max-width: 650px) {
+  .heading {
+    margin-top: 100px;
+  }
+}
+
