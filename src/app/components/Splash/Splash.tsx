@@ -1,5 +1,5 @@
+import LogoFull from '@/svg/LogoFull'
 import css from './Splash.module.scss'
-import LogoFull from '@/svg/LogoFull.tsx'
 
 const Splash = () => (
   <div className={css.splash}>
