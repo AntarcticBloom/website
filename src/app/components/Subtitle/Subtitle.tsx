@@ -1,3 +1,4 @@
+import { type ReactNode } from 'react'
 import css from './Subtitle.module.scss'
 
 type Props = {
