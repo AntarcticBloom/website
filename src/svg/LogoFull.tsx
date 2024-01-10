@@ -1,6 +1,6 @@
-const LogoFull = () => (
+const LogoFull = ({ className }: { className: string }) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
+    className={className}
     xmlSpace="preserve"
     fillRule="evenodd"
     clipRule="evenodd"
