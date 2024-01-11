@@ -22,9 +22,7 @@ export const metadata: Metadata = {
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => (
   <html lang="en">
-    <body className={`${dmMono.className} ${dmSans.className}`}>
-      {children}
-    </body>
+    <body className={`${dmMono.variable} ${dmSans.variable}`}>{children}</body>
   </html>
 )
 

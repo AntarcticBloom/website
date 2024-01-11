@@ -89,9 +89,10 @@
   
   .textContainer {
     width: 100%;
+    max-width: 550px;
 
     p {
-      font-size: 12px;
+      font-size: 14px;
     }
   }
 
@@ -101,8 +102,8 @@
   .imageContainer {
     width: 150px;
   }
-  .textContainer {
 
+  .textContainer {
     p {
       font-size: 12px;
     }
