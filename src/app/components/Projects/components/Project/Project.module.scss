@@ -1,6 +1,6 @@
 .container {
-  top: 100px;
   bottom: 0;
+  top: 300px;
   width: 100%;
   margin: auto;
   display: flex;
@@ -11,13 +11,13 @@
 }
 
 .logoContainer {
-  width: calc(60% - 64px);
+  width: calc(60% - 48px);
   max-width: calc(550px / 60 * 40);
 }
 
 .descriptionContainer {
   max-width: 550px;
-  width: calc(40% - 64px);
+  width: calc(40% - 48px);
 }
 
 .title {

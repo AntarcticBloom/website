@@ -12,7 +12,7 @@
 
 .container {
   width: 100%;
-  height: 150vh;
+  height: 250vh;
   overflow: hidden;
   position: relative;
   background-color: #fffffa;
@@ -39,13 +39,13 @@
 
 .chevronButton {
   top: 0;
-  bottom: 0;
   border: 0;
   z-index: 2;
   width: 64px;
   margin: auto;
   height: 64px;
   display: flex;
+  bottom: -300px;
   cursor: pointer;
   position: absolute;
   align-items: center;
@@ -63,9 +63,9 @@
 
 @media screen and (max-width: 1150px) {
   .chevronButton {
-    width: 48px;
-    height: 48px;
-    bottom: -100px;
+    width: 40px;
+    height: 40px;
+    bottom: -132px;
     border-radius: 50%;
     border: 1px solid #FF0056;
   }
@@ -80,11 +80,16 @@
 }
 
 @media(max-width: 650px) {
+  .container {
+    height: 200vh;
+  }
+
   .title {
     left: 0;
     right: 0;
-    top: 300px;
+    top: 450px;
     margin: 0 auto;
+    font-size: 4rem;
     text-align: center;
   }
 }

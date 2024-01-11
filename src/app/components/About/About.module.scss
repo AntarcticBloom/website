@@ -67,11 +67,12 @@
   position: relative;
   padding-left: 24px;
   padding-right: 24px;
-  border-left: 4px solid #FF0056;
+  border-left: 3px solid #FF0056;
 }
 
 .heading {
   margin-left: 10%;
+  font-size: 3.25rem;
   margin-bottom: 200px;
 }
 
@@ -87,7 +88,23 @@
   }
   
   .textContainer {
-    width: calc(75% - 64px);
+    width: 100%;
+
+    p {
+      font-size: 12px;
+    }
   }
 
+}
+
+@media screen and (max-width: 650px) {
+  .imageContainer {
+    width: 150px;
+  }
+  .textContainer {
+
+    p {
+      font-size: 12px;
+    }
+  }
 }
