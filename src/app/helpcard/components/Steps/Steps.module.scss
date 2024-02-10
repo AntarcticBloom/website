@@ -19,10 +19,11 @@
   max-width: 400px;
   margin-left: auto;
   margin-right: 64px;
-  margin-bottom: 400px;
-
+  margin-bottom: 200px;
+  
   @media (max-width: 768px) {
     width: 100%;
+    margin-bottom: 0px;
   }
 }
 
@@ -34,6 +35,7 @@
   padding: 0 64px;
   
   @media (max-width: 768px) {
+    top: 50px;
     width: 100%;
     max-width: 100%;
   }
@@ -51,7 +53,7 @@
   position: relative;
   
   @media (max-width: 500px) {
-    min-height: 2dvb;    
+    min-height: 200px;    
   }
 }
 
@@ -90,6 +92,7 @@
   @media (max-width: 768px) {
     width: 100%;
     max-width: 100%;
+    bottom: 200px; // height of the text container
   }
 
   @media (max-width: 550px) {
@@ -103,6 +106,7 @@
   height: 1000px;
   margin-top: 200px;
   position: relative;
+
   
   @media (max-width: 550px) {
     bottom: 125px;
