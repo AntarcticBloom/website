@@ -15,6 +15,12 @@ const Project = ({ project }: Props) => {
         {project.subtitle}
 
         {project.description}
+
+        {project.internalProjectLink && (
+          <a href={project.internalProjectLink} className={css.link}>
+            Learn more
+          </a>
+        )}
       </div>
     </div>
   )

@@ -1,0 +1,172 @@
+
+
+.stepOneFlexContainer {
+  width: 100%;
+  display: flex;
+
+  padding: 0 32px;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  
+  @media (max-width: 1200px) {
+    margin-bottom: 309px; // height of the text container
+  }
+}
+
+.howItWorks {
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: 64px;
+  margin-bottom: 400px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.stepOne {
+  top: -309px; // height of the text container
+  left: 0;
+  width: 650px;
+  position: absolute;
+  padding: 0 64px;
+  
+  @media (max-width: 768px) {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  @media (max-width: 550px) {
+    padding: 0 32px;
+    top: -200px; // height of the text container
+  }
+}
+
+.imageContainer {
+  width: 100%;
+  height: 100vh;
+  min-height: 1200px;
+  position: relative;
+  
+  @media (max-width: 500px) {
+    min-height: 2dvb;    
+  }
+}
+
+.image {
+  left: 0;
+  display: block;
+  object-fit: cover;
+  position: absolute;
+  
+  @media (max-width: 768px) {
+    min-height: 500px;    
+    object-fit: contain;
+  }
+}
+
+.stepTwoFlexContainer {
+  display: flex;
+  padding: 0 32px;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  
+  @media (max-width: 768px) {
+    gap: 32px;
+    flex-direction: column;
+  }
+}
+
+.stepTwo {
+  right: 0;
+  bottom: -100px; // height of the text container
+  width: 650px;
+  position: absolute;
+  padding: 0 64px;
+  
+  @media (max-width: 768px) {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  @media (max-width: 550px) {
+    padding: 0 32px;
+    bottom: -50px; // height of the text container
+  }
+}
+
+.scanVisualContainer {
+  width: 150vw;
+  height: 1000px;
+  margin-top: 200px;
+  position: relative;
+  
+  @media (max-width: 550px) {
+    bottom: 125px;
+  }
+}
+
+.scanVisualImage {
+  left: -100vw;
+  height: 1000px;
+  display: block;
+  position: absolute;
+  object-fit: contain;
+  object-position: -25vw 0;
+  
+  @media (min-width: 900px) {
+    object-position: -10vw 0;
+  }
+}
+
+.stepThree {
+  width: 650px;
+  padding: 0 64px;
+  
+  bottom: 70px;
+  left: 500px;
+  position: absolute;
+  
+  @media (max-width: 1200px) {
+    left: 550px;
+    width: 400px;
+    bottom: 50px;
+  }
+  
+  @media (max-width: 950px) {
+    left: 525px;
+  }
+  
+  @media (max-width: 900px) {
+    left: 400px;
+    width: 425px;
+  }
+  
+  @media (max-width: 800px) {
+    left: 325px;
+    width: 450px;
+  }
+  
+  @media (max-width: 750px) {
+    left: 300px;
+    width: 375px;
+    bottom: 75px;
+  }
+  
+  @media (max-width: 650px) {
+    left: 225px;
+    width: 375px;
+    bottom: 150px;
+  }
+  
+  @media (max-width: 550px) {
+    left: 0;
+    width: 100vw;
+    bottom: 250px;
+    padding: 0 32px;
+  }
+
+}

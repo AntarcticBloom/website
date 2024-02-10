@@ -1,5 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
+import { DimensionsProvider } from './hooks'
 import { DM_Sans, DM_Mono } from 'next/font/google'
 
 const dmSans = DM_Sans({
@@ -22,7 +23,9 @@ export const metadata: Metadata = {
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => (
   <html lang="en">
-    <body className={`${dmMono.variable} ${dmSans.variable}`}>{children}</body>
+    <body className={`${dmMono.variable} ${dmSans.variable}`}>
+      <DimensionsProvider>{children}</DimensionsProvider>
+    </body>
   </html>
 )
 

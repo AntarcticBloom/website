@@ -6,11 +6,10 @@ import Splash from './components/Splash'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Tagline from './components/Tagline'
-import { DimensionsProvider } from './hooks'
 import Projects, { projects } from './components/Projects'
 
 const Home = () => (
-  <DimensionsProvider>
+  <>
     <Header />
     <Splash />
     <Tagline />
@@ -18,7 +17,7 @@ const Home = () => (
     <About />
     <CTA />
     <Footer />
-  </DimensionsProvider>
+  </>
 )
 
 export default Home

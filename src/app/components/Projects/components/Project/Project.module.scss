@@ -27,6 +27,20 @@
   margin-bottom: 1rem;
 }
 
+.link {
+  display: block;
+  margin-top: 8px;
+  color: #fffffa;
+  font-weight: 500;
+  padding: 12px 24px;
+  width: fit-content;
+  border-radius: 8px;
+  text-decoration: none;
+  letter-spacing: .05rem;
+  text-transform: uppercase;
+  background-color: #FF0056;
+}
+
 @media (max-width: 1150px) {
   .container {
     row-gap: 64px;

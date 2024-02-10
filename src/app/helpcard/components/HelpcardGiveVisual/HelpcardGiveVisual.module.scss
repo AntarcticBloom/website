@@ -1,0 +1,11 @@
+.graphicContainer {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 128px;
+  
+  @media (max-width: 768px) {
+    width: 150%;
+    margin-left: -25%;
+  }
+}

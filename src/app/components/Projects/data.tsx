@@ -13,15 +13,16 @@ export const projects: Project[] = [
         Targeted direct aid for unhoused people. Peace of mind for donors.
       </Subtitle>
     ),
-    description: <HelpcardDescription />,
     logo: <HelpcardGraphic />,
+    internalProjectLink: '/helpcard',
+    description: <HelpcardDescription />,
   },
   {
     title: 'innate',
     subtitle: (
       <Subtitle>Helpful software licensed to helpful organizations.</Subtitle>
     ),
-    description: <InnateDescription />,
     logo: <InnateGraphic />,
+    description: <InnateDescription />,
   },
 ]

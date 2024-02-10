@@ -1,0 +1,21 @@
+.flexContainer {
+  gap: 96px;
+  display: flex;
+  height: 100vh;
+  padding: 0 32px;
+  align-items: center;
+  justify-content: center;
+  
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.graphicContainer {
+  width: 265px;
+}
+
+.text {
+  width: 100%;
+  max-width: 425px;
+}

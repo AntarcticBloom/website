@@ -5,4 +5,5 @@ export type Project = {
   logo: ReactNode
   subtitle: ReactNode
   description: ReactNode
+  internalProjectLink?: string
 }
