@@ -107,6 +107,10 @@
   margin-top: 200px;
   position: relative;
 
+  @media (max-width: 768px) {
+    margin-top: 0;
+    bottom: 125px;
+  }
   
   @media (max-width: 550px) {
     bottom: 125px;
